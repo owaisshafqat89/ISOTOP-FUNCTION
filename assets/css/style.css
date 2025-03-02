@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbartop */
+
+
+
+/*section*/
+
+.all-counters-portfolio {
+    display: flex;
+    gap: 40px;
+}
+
+.first-num {
+    width: 100px;
+}
+
+.second-num {
+    width: 100px;
+}
+
+.third-num {
+    width: 100px;
+}
+
+.fourth-num {
+    width: 130px;
+}
+
+.all-images {
+    display: flex;
+    justify-content: center;
+}
+
+.isotop {
+    height: 100%;
+    width: 100%;
+}
+
+.filter-button {
+    border: 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(3, 3, 139);
+    background-color: rgb(250, 250, 250);
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.filter-button.active {
+    background-color: #060682;
+    color: white;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.tittle-col-1-proud h1 {
+    color: #000000;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.first-num h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #060682;
+    margin-bottom: 30px;
+}
+
+.first-num p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #949494;
+
+}
+
+.second-num h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #060682;
+    margin-bottom: 30px;
+}
+
+.second-num p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #949494;
+
+}
+
+.third-num h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #060682;
+    margin-bottom: 30px;
+}
+
+.third-num p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #949494;
+
+}
+
+.fourth-num h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #060682;
+    margin-bottom: 30px;
+}
+
+.fourth-num p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #949494;
+}
+
+.tittle-col-1-proud h1 {
+    margin-bottom: 50px;
+}
+
+/* RESPONCIVENESS */
+
+@media(min-width:1422px) {}
+
+@media(max-width:1280px) {}
+
+@media(max-width:1200px) {
+    .tittle-col-1-proud h1 {
+        color: #000000;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .for-all-button {
+        background-color: rgb(3, 3, 139);
+        color: white;
+        border: 0px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .filter-button {
+        border: 0px;
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+        color: rgb(3, 3, 139);
+        border: 1px solid rgb(3, 3, 139);
+        background-color: white;
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:1137px) {}
+
+@media(max-width:992px) {
+    .filter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .tittle-col-1-proud H1 {
+        color: #000000;
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .first-num p {
+        font-size: 20px;
+        font-weight: 700;
+        color: #949494;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .all-counters-portfolio {
+        display: flex;
+        gap: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:720px) {
+    .tittle-col-1-proud H1 {
+        color: #000000;
+        font-size: 45px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .tittle-col-1-proud h1 {
+        margin-bottom: 20px;
+    }
+
+    .first-num p {
+        font-size: 14px;
+    }
+
+    .second-num p {
+        font-size: 14px;
+    }
+
+    .third-num p {
+        font-size: 14px;
+    }
+
+    .fourth-num p {
+        font-size: 14px;
+    }
+
+    .first-num h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .second-num h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .third-num h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .fourth-num h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .filter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:550px) {}
+
+@media(max-width:457px) {
+    .tittle-col-1-proud H1 {
+        color: #000000;
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .first-num p {
+        font-size: 12px;
+    }
+
+    .second-num p {
+        font-size: 12px;
+    }
+
+    .third-num p {
+        font-size: 12px;
+    }
+
+    .fourth-num p {
+        font-size: 12px;
+    }
+
+    .all-counters-portfolio {
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
+@media(max-width:383px) {}
